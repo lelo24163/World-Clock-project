@@ -31,7 +31,7 @@ function updateTime() {
   if (seoulElement) {
     let thailandDateElement = thailandElement.querySelector(".date");
     let thailandTimeElement = thailandElement.querySelector(".time");
-    let thailandTime = moment().tz("Asia/Seoul");
+    let thailandTime = moment().tz("Bangkok/Thailand");
 
     thailandDateElement.innerHTML = thailandTime.format("MMMM	Do YYYY");
     thailandTimeElement.innerHTML = thailandTime.format(
