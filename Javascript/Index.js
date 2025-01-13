@@ -7,8 +7,7 @@
  
      losAngelesDate.innerHTML = losAngelesAA.format("MMMM Do YYYY");
      losAngelesTime.innerHTML = `${losAngelesAA.format(
-       "h:mm:ss"
-     )} <small>${losAngelesAA.format("A")}</small>`;
+       "h:mm:ss" )} <small>${losAngelesAA.format("A")}</small>`;
    }
  
    //Paris
