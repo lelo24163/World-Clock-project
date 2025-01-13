@@ -1,4 +1,4 @@
-function updateTime() {
+ function updateTime() {
    let losAngelesElement = document.querySelector("#los");
    if (losAngelesElement) {
      let losAngelesDate = losAngelesElement.querySelector(".date");
