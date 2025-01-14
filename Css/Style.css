@@ -39,7 +39,7 @@ select {
   justify-content: space-between;
   padding: 30px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
-  color: pink
+  color: Red
 }
 
 .city:last-child {
@@ -48,13 +48,13 @@ select {
 
 .date {
   opacity: 0.7;
-  color: yellow
+  color: pink
 }
 
 .time {
   font-size: 48px;
   font-weight: bold;
-  color: green
+  color: blue
 }
 
 .time small {
